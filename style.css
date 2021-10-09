@@ -1,0 +1,166 @@
+body{overflow-x: hidden;}
+/* header */
+.navbar{box-shadow: 0 0 20px rgba(0,0,0,0.3); background: #fff!important;}
+.navbar-brand img{width: 150px;}
+.navbar-nav li a{ color: #000; font-size: 16px!important;}
+#search{border: 0.5px solid #c7c6c6; outline: none; padding: 4px 0; transition: width 0.6s; width: 0; opacity: 0;}
+#search.active{width: 100%; opacity: 1; transition: width 0.4s;}
+#search::placeholder{text-align: center; }
+.fa-search{padding-right: 60px;}
+
+/* main page */
+.main-img{padding-top: 124px ;}
+.btns{width: 100%;}
+.btns li{background: #0d6efd; list-style: none; padding: 15px 30px; margin-bottom: 10px; border-radius: 10px;}
+.btns li a{text-decoration: none; color: #fff; font-size: 19px!important;}
+.btns li:hover{opacity: 0.9;}
+.d-flex-1{display: flex; align-items: center; justify-content: space-between;}
+#left{padding-right: 15px;}
+
+
+/* department */
+.col-pad{padding: 0 10px;}
+.p{color: #0d6efd; font-weight: bold;}
+.h2{color: #434343; font-size: 30px; position: relative;}
+.department{margin: 20px 0;}
+.department-heading, .team-heading, .choose-us-heading{text-align: center; margin-bottom: 30px;}
+.h2::after{
+    content: ""; 
+    position: absolute; 
+    width: 50px; 
+    height: 4px;
+    border-radius: 4px;
+    top: 50px;
+    left: 47%;
+    background: #0d6efd;
+}
+
+.box-1{width: 100%; padding: 40px 15px;  box-shadow: 0 0 5px 0 rgba(0,0,0,0.2); border-radius: 6px; margin: 10px 0; position: relative;}
+.box-1:hover{box-shadow:  0 0 5px 0 rgba(0,0,0,0.1);}
+.logo-1{display: flex; justify-content: center;}
+.content-1{text-align: center; padding-top: 10px; }
+.logo-1 img{transform: translateY(-15px); transition: transform 0.4s;}
+.box-1:hover .logo-1 img{transform: translateY(0px);}
+
+
+/* health */
+.health-advice{padding: 0;}
+.-row{--bs-gutter-x: 0.0rem;}
+
+.health-col{padding: 40px 0; color: #fff;}
+.heading-health{text-align: left; padding-left: 60px;}
+
+.health-img{height: 100%;}
+.health-img img{height: 100%;}
+/* appointment */
+.make-appointment{margin-bottom: 20px; background: linear-gradient(to right, #161c2d, #161c2d); padding: 60px 0;}
+
+
+/* team specialist doctors */
+.links-list{ padding: 0;}
+.links-list .links{display: inline-block; padding-right:10px; list-style: none;}
+
+
+.social-links .fa-facebook{color: blue;}
+.social-links .fa-twitter{color: red;}
+.social-links .fa-pinterest{color: rgb(163, 71, 71);}
+.social-links .fa-google-plus{color: rgb(197, 62, 62);}
+.links{background: rgb(233, 233, 233); width: 40px; height: 40px; display: inline-block; border-radius: 100%; padding: 8px;}
+
+
+.logo-2 img{border-radius: 100%; transition: scale 0.4s; position: relative; }
+.logo-2:hover img{background: linear-gradient(180deg, #0d6efd,#5e91df); transform: scale(0.9);}
+.logo-2{position: relative; display: flex; justify-content: center;}
+.logo-2 .plus{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; display: none;}
+.logo-2:hover .plus{display: block;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+   
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: #0d6efd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    border: 1px solid #0d6efd;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    transition: 0.4s;
+  }  
+
+
+
+/* why choose us */
+.choose-us{margin: 30px 0; background: linear-gradient(to right, #161c2d, #161c2d); padding: 60px 0;}
+.point-1{padding: 40px 0; border-bottom: 1px solid rgb(96, 150, 252); }
+.point-1 a{color: #fff; font-size: 25px; text-decoration: none;}
+.point-1:hover{border-bottom: 2px solid #0d6efd;}
+
+/* banner carousel */
+.banner{margin: -60px 0 20px 0;}
+.single-image-1{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(../banner-1.jpg);
+    height: 500px;background-size: cover;background-position: center;
+}
+.single-image-2{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(../banner-3.jpg);
+    height: 500px;background-size: cover; background-position: center;
+}
+.single-image-3{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(../banner-4.jpg);
+    height: 500px;background-size: cover; background-position: center;
+}
+.banner-content {
+    width: 500px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo-banner img{
+    margin: 0 auto;
+}
+.logo-3{margin-bottom: 10px;}
+.banner-content p{color: #fff; font-size: 16px; line-height: 30px;}
+.banner-content h3, h4{color: #fff;}
+
+.logo-banner img{width: 80px; height: 80px; border-radius: 100%;}
+
+/* data-icon */
+
+.border-1{border: 1px solid #c7c6c6; background: #fff;  padding: 40px 0 20px 0; position: relative; bottom: -90px; z-index: 111; }
+
+/* footer */
+footer{background: #161c2d; padding: 20px 0 0 0;}
+.ul, .health-ul{padding: 20px 0 0 0;}
+.ul .li, .health-ul .health-li{list-style: none; padding: 10px 0;}
+.ul .li a{color: #fff; text-decoration: none;}
+.ul .li span{color: #fff;}
+
+@media(max-width:767px){
+    .row{width: 100%; text-align: center; margin: 10px auto;}
+    .main-img img{width: 70%;}
+    .main-content, .main-img{margin-bottom: 20px;}
+    .navbar{text-align: center;}
+   
+    input{display: none;}
+}
