@@ -119,13 +119,13 @@ body{overflow-x: hidden;}
 
 /* banner carousel */
 .banner{margin: -60px 0 20px 0;}
-.single-image-1{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(../banner-1.jpg);
+.single-image-1{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(banner-1.jpg);
     height: 500px;background-size: cover;background-position: center;
 }
-.single-image-2{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(../banner-3.jpg);
+.single-image-2{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(banner-3.jpg);
     height: 500px;background-size: cover; background-position: center;
 }
-.single-image-3{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(../banner-4.jpg);
+.single-image-3{background: linear-gradient(to right, rgba(149, 189, 248,0.5), rgba(30, 93, 230, 0.5)), url(banner-4.jpg);
     height: 500px;background-size: cover; background-position: center;
 }
 .banner-content {
